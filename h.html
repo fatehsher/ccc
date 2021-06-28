@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ball</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(14, 13, 11);
+           
+        }
+
+        div ul {
+            display: flex;
+            margin-top: 250px;
+            border-bottom: 80px solid rgb(238, 30, 3);
+            
+
+        }
+
+        div ul li {
+            width: 60px;
+            height: 60px;
+            background-color: rgb(238, 34, 34);
+            list-style: none;
+            margin: 0 10px;
+             border-radius: 50%; 
+             animation: bouncy 1s linear infinite; 
+            padding-left: 5px;
+
+        }
+
+        @keyframes bouncy {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-300px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        ul li:nth-child(1) {
+            animation-delay: 0.2s;
+            background-color: chocolate;
+        }
+
+        ul li:nth-child(2) {
+            animation-delay: 0.4;
+            background-color: rgb(14, 7, 3);
+        }
+
+        ul li:nth-child(3) {
+            animation-delay: 0.66s;
+            background-color: rgb(13, 175, 204);
+        }
+
+        ul li:nth-child(5) {
+            animation-delay: 0.10s;
+            background-color: rgb(41, 14, 194);
+        }
+
+        ul li:nth-child(6) {
+            animation-delay: 0.3s;
+            background-color: rgb(245, 7, 205);
+        }
+
+        ul li:nth-child(7) {
+            animation-delay: 0.11s;
+            background-color: rgb(187, 219, 7);
+        }
+
+        c ul li:nth-child(8) {
+            animation-delay: 0.8s;
+            background-color: rgb(5, 202, 5);
+        }
+
+        ul li:nth-child(9) {
+            animation-delay: 0.4s;
+            background-color: rgb(141, 143, 44);
+        }
+
+        ul li:nth-child(10) {
+            animation-delay: 0.5s;
+            background-color: rgb(20, 6, 95);
+        }
+
+        ul li:nth-child(10) {
+            animation-delay: 0.5s;
+            background-color: rgb(199, 197, 207);
+        }
+
+        ul li:nth-child(11) {
+            animation-delay: 0.2s;
+            background-color: rgb(63, 189, 52);
+        }
+        ul li:nth-child(12) {
+            animation-delay: 0.4s;
+            background-color: rgb(48, 195, 231);
+        }
+        ul li:nth-child(13) {
+            animation-delay: 0.7s;
+            background-color: rgb(224, 9, 20);
+        }
+
+
+        h1 {
+            color: rgb(233, 233, 235);
+         position: absolute;
+         top:430px;
+        font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul> 
+           <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li> 
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <h1>fateh</h1>
+    </div>
+
+</body>
+
+</html>
